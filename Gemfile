@@ -4,4 +4,4 @@ source "https://rubygems.org"
 
 git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
-gem "graphql_swift_gen"
+gem "graphql_swift_gen", path: "graphql_swift_gen"
